@@ -2,7 +2,6 @@ import React from "react";
 import { Route } from "react-router-dom";
 
 function Home() {
-  const randomizer = Math.floor(Math.random() * 6);
   return (
               <Route
                 path="/"
